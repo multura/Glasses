@@ -1,0 +1,44 @@
+PODS:
+  - AIBudsSDK/ABMate (1.0.0):
+    - AIBudsSDK/Core
+    - AIBudsSDK/ThirdParty/GCDWebServer
+    - libopus (= 1.1)
+  - AIBudsSDK/Core (1.0.0):
+    - AIBudsSDK/Foundation
+    - AIBudsSDK/Log/Core
+  - AIBudsSDK/Foundation (1.0.0):
+    - AIBudsSDK/Log/Core
+  - AIBudsSDK/Log/Core (1.0.0):
+    - zipzap
+  - AIBudsSDK/ThirdParty/GCDWebServer (1.0.0)
+  - libopus (1.1)
+  - zipzap (8.1.1)
+
+DEPENDENCIES:
+  - AIBudsSDK/ABMate (from `https://github.com/topstepsmart/AIBuds-SDK-iOS.git`, tag `1.0.0`)
+  - libopus (from `libopus.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - zipzap
+
+EXTERNAL SOURCES:
+  AIBudsSDK:
+    :git: https://github.com/topstepsmart/AIBuds-SDK-iOS.git
+    :tag: 1.0.0
+  libopus:
+    :podspec: libopus.podspec
+
+CHECKOUT OPTIONS:
+  AIBudsSDK:
+    :git: https://github.com/topstepsmart/AIBuds-SDK-iOS.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  AIBudsSDK: e09a81af5e68b9bd8fd1e3bf11f0bc58ca59a26b
+  libopus: faf525c4d05f626cc5dbb9a79fc87dd5e9fcc8ad
+  zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
+
+PODFILE CHECKSUM: 3b8128fbc2d0d53bb7820cd2d5b7947f9c48dcb3
+
+COCOAPODS: 1.17.0

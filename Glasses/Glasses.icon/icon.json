@@ -1,0 +1,45 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.73779,0.86182,0.28516,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.73779,0.86182,0.28516,1.00000"
+              }
+            }
+          ],
+          "image-name" : "􁻈.svg",
+          "name" : "􁻈",
+          "position" : {
+            "scale" : 7.22,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
